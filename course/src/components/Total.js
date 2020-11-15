@@ -4,9 +4,9 @@ const Total = props => {
 
     const { parts } = props;
     return(
-        <p>
+        <b>
             Number of exercises {parts.reduce((acc, part) => acc + part.exercises, 0)}
-        </p>
+        </b>
         
     )
 }
